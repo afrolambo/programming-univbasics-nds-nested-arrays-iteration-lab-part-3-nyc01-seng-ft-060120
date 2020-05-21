@@ -4,12 +4,7 @@ def join_nested_strings(src)
   while row_index < src.count do
     element_index = 0 
     while element_index < src[row_index].count do 
-      count = 0 
-      while count < src[row_index][element_index].count do 
-        if src[row_index][element_index][count] != (0...1000) 
-        final_string << src[row_index][element_index][count]
-      end 
-      count += 1
+     
       end 
       element_index += 1 
     end 
