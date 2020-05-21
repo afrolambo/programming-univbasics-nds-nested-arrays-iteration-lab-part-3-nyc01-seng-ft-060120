@@ -9,6 +9,8 @@ def join_nested_strings(src)
         if src[row_index][element_index][count] != {0...1000} 
         final_string << src[row_index][element_index][count]
       end 
+      count += 1
+      end 
       element_index += 1 
     end 
    row_index += 1 
